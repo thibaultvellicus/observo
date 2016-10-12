@@ -142,8 +142,8 @@
     <value>Vérifier les mises à jour...</value>
   </data>
   <data name="ChooseNewObservationType_Lbl" xml:space="preserve">
-    <value>Veuillez sélectionner le type de formulaire à créer:</value>
-  </data>
+    <value>Veuillez sélectionner le type de formulaire à créer :</value>
+    </data>
   <data name="ChooseNewObservationType_Ttl" xml:space="preserve">
     <value>Nouvelle observation...</value>
   </data>
@@ -157,14 +157,14 @@
     <value>Configuration</value>
   </data>
   <data name="ConfirmDeleteBp_Msg" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer le point de repère?</value>
-  </data>
+    <value>Voulez-vous vraiment supprimer le point de repère ?</value>
+    </data>
   <data name="ConfirmDeletePhoto_Msg" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer la photo?</value>
-  </data>
+    <value>Voulez-vous vraiment supprimer la photo ?</value>
+    </data>
   <data name="ConfirmDeleteVoice_Msg" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer la saisie vocale?</value>
-  </data>
+    <value>Voulez-vous vraiment supprimer la saisie vocale ?</value>
+    </data>
   <data name="ConfirmDelete_Ttl" xml:space="preserve">
     <value>Supprimer</value>
   </data>
@@ -175,8 +175,8 @@
     <value>Supprimer le formulaire d'observation?</value>
   </data>
   <data name="DeleteObservation_Msg" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer l'observation?</value>
-  </data>
+    <value>Voulez-vous vraiment supprimer l'observation ?</value>
+    </data>
   <data name="Delete_Btn" xml:space="preserve">
     <value>Supprimer</value>
   </data>
@@ -310,8 +310,8 @@
     <value>Ok</value>
   </data>
   <data name="OperationSuccessfull_Toast" xml:space="preserve">
-    <value>Opération effectuée avec succès.</value>
-  </data>
+    <value>Opération effectuée avec succès</value>
+    </data>
   <data name="Optional_Lbl" xml:space="preserve">
     <value>Optionnel</value>
   </data>
@@ -349,8 +349,8 @@
     <value>Supprimer toutes les données</value>
   </data>
   <data name="ResetData_Msg" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer toutes les données?</value>
-  </data>
+    <value>Voulez-vous vraiment supprimer toutes les données ?</value>
+    </data>
   <data name="SaveInProgress_Hud" xml:space="preserve">
     <value>Sauvegarde en cours...</value>
   </data>
@@ -388,8 +388,8 @@
     <value>Inconnue</value>
   </data>
   <data name="UpdateFormRequired_Msg" xml:space="preserve">
-    <value>Une mise à jour des formulaires est disponible sur le serveur. Voulez-vous mettre à jour maintenant?</value>
-  </data>
+    <value>Une mise à jour des formulaires est disponible sur le serveur. Voulez-vous mettre à jour maintenant ?</value>
+    </data>
   <data name="UpdateFormRequired_Ttl" xml:space="preserve">
     <value>Mise à jour nécessaire</value>
   </data>
@@ -419,5 +419,8 @@
   </data>
 <data name="Preferences_Ttl" xml:space="preserve">
     <value>Préférences</value>
+    </data>
+    <data name="UpdateProfile_Btn" xml:space="preserve">
+    <value>Vérifier le profil...</value>
     </data>
     </root>
