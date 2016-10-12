@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Ttl" xml:space="preserve">
+    <value>Circa</value>
+  </data>
+  <data name="AddMore_Btn" xml:space="preserve">
+    <value>Aggiungi…</value>
+  </data>
+  <data name="AddObservation_BtnBar" xml:space="preserve">
+    <value>Nuova osservazione</value>
+  </data>
+  <data name="Back_Btn" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="BezugspunktPlacementHint_Lbl" xml:space="preserve">
+    <value>Si prega di toccare il segno di spunta una volta che il punto di riferimento di {0} sia posizionato correttamente.Toccare il pulsante indietro per annullare il posizionamento.</value>
+  </data>
+  <data name="Bezugspunkt_Lbl" xml:space="preserve">
+    <value>Punto di riferimento {0}</value>
+  </data>
+  <data name="Cancel_Btn" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="CheckUpdates_Btn" xml:space="preserve">
+    <value>Verifica aggiornamenti</value>
+  </data>
+  <data name="ChooseNewObservationType_Lbl" xml:space="preserve">
+    <value>Scegliere il tipo di modulo che si desidera creare:</value>
+  </data>
+  <data name="ChooseNewObservationType_Ttl" xml:space="preserve">
+    <value>Nuova osservazione…</value>
+  </data>
+  <data name="ComingSoon_Lbl" xml:space="preserve">
+    <value>Prossimamente…</value>
+  </data>
+  <data name="CommunicationProblem_Ttl" xml:space="preserve">
+    <value>Problema di comunicazione</value>
+  </data>
+  <data name="Configuration_Ttl" xml:space="preserve">
+    <value>Configurazione</value>
+  </data>
+  <data name="ConfirmDeleteBp_Msg" xml:space="preserve">
+    <value>Cancellare veramente il punto di riferimento?</value>
+  </data>
+  <data name="ConfirmDeletePhoto_Msg" xml:space="preserve">
+    <value>Cancellare veramente la foto</value>
+  </data>
+  <data name="ConfirmDeleteVoice_Msg" xml:space="preserve">
+    <value>Cancellare veramente la registrazione vocale?</value>
+  </data>
+  <data name="ConfirmDelete_Ttl" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="Coordinates_Lbl" xml:space="preserve">
+    <value>Coordinate</value>
+  </data>
+  <data name="DeleteForm_Ttl" xml:space="preserve">
+    <value>Cancellare il modula</value>
+  </data>
+  <data name="DeleteObservation_Msg" xml:space="preserve">
+    <value>Cancellare veramente l'osservazione?</value>
+  </data>
+  <data name="Delete_Btn" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="DeviceIdentifier_Lbl" xml:space="preserve">
+    <value>Identificatore del dispositivo</value>
+  </data>
+  <data name="DisplayOnMap_Btn" xml:space="preserve">
+    <value>Visualizzare sulla mappa</value>
+  </data>
+  <data name="East_Lbl" xml:space="preserve">
+    <value>Est</value>
+  </data>
+  <data name="EmailRequired_Msg" xml:space="preserve">
+    <value>Inserisci il tuo indirizzo di E-Mail</value>
+  </data>
+  <data name="EnterFreeText_Lbl" xml:space="preserve">
+    <value>Si prega di fare clic per inserire il testo…</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="RegisterFormIncomplete_Ttl" xml:space="preserve">
+    <value>Osservazione incompleta</value>
+  </data>
+  <data name="FreeText_Lbl" xml:space="preserve">
+    <value>Testo libero…</value>
+  </data>
+  <data name="HostNotReachable_Msg" xml:space="preserve">
+    <value>Impossibile connettersi al server. Riprova tra qualche minuto.</value>
+  </data>
+  <data name="ImportDone" xml:space="preserve">
+    <value>Fatto</value>
+  </data>
+  <data name="ImportStarting" xml:space="preserve">
+    <value>Avviare l'importazione</value>
+  </data>
+  <data name="ImportSummaryMsg" xml:space="preserve">
+    <value>Dataazione di successo:
+-{0} importati nuovi oggetti
+-{1} aggiornato oggetti
+-{2} oggetti invariati</value>
+  </data>
+  <data name="ImportSummaryTitle" xml:space="preserve">
+    <value>Dataazione</value>
+  </data>
+  <data name="LegalInformations" xml:space="preserve">
+    <value>Informazioni legali</value>
+  </data>
+  <data name="LicenceRequestSentMsg" xml:space="preserve">
+    <value>La richiesta di licenza è stata inviata e verrà trattata più presto possibile.</value>
+  </data>
+  <data name="LicenceRequestSentTitle" xml:space="preserve">
+    <value>Domanda di licenza</value>
+  </data>
+  <data name="MainMenu_Ttl" xml:space="preserve">
+    <value>Menu principale</value>
+  </data>
+  <data name="MandantName_Ttl" xml:space="preserve">
+    <value>Mandante {0}</value>
+  </data>
+  <data name="Mandants_Lbl" xml:space="preserve">
+    <value>Mandanti</value>
+  </data>
+  <data name="MapMaterials_Ttl" xml:space="preserve">
+    <value>Mappa di fondi</value>
+  </data>
+  <data name="Map_Ttl" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="Message_Lbl" xml:space="preserve">
+    <value>Messaggio</value>
+  </data>
+  <data name="Meter_Lbl" xml:space="preserve">
+    <value>Metro</value>
+  </data>
+  <data name="NameCompanyRequired_Msg" xml:space="preserve">
+    <value>Si prega di inserisci il tu nome / società</value>
+  </data>
+  <data name="NameCompany_Lbl" xml:space="preserve">
+    <value>Nome / Società</value>
+  </data>
+  <data name="NavigateTo_Btn" xml:space="preserve">
+    <value>Esplorare all</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoBpFound_Msg" xml:space="preserve">
+    <value>Nessun punto di riferimento trovato per questa posizione</value>
+  </data>
+  <data name="NoBpFound_Ttl" xml:space="preserve">
+    <value>Ricerca del punto di riferimento</value>
+  </data>
+  <data name="NoFormFound_Msg" xml:space="preserve">
+    <value>Si prega di aggiornare il tuo profilo. Nessuna modulo trovata.</value>
+  </data>
+  <data name="None_Lbl" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="North_Lbl" xml:space="preserve">
+    <value>Nord</value>
+  </data>
+  <data name="Objects_Ttl" xml:space="preserve">
+    <value>Oggetti</value>
+  </data>
+  <data name="Observation" xml:space="preserve">
+    <value>Osservazione</value>
+  </data>
+  <data name="ObservationCreationDate" xml:space="preserve">
+    <value>Data di creazione</value>
+  </data>
+  <data name="ObservationSentDate" xml:space="preserve">
+    <value>Inviato il</value>
+  </data>
+  <data name="ObservationSentFailed_Msg" xml:space="preserve">
+    <value>L'osservazione potrebbe non essere inviata.</value>
+  </data>
+  <data name="ObservationSentMsg" xml:space="preserve">
+    <value>L'osservazione è stata trasmessa con successo.</value>
+  </data>
+  <data name="Observations_Ttl" xml:space="preserve">
+    <value>Osservazioni</value>
+  </data>
+  <data name="ObservationTypes_Lbl" xml:space="preserve">
+    <value>Tipo di evento</value>
+  </data>
+  <data name="Offline_Msg" xml:space="preserve">
+    <value>Il sistema sembra essere non in linea. Controllare la connessione a Internet e riprovare.</value>
+  </data>
+  <data name="Ok_Btn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OperationSuccessfull_Toast" xml:space="preserve">
+    <value>Operazione completata con successo.</value>
+  </data>
+  <data name="Optional_Lbl" xml:space="preserve">
+    <value>Opzionale</value>
+  </data>
+  <data name="OwnMaps_Ttl" xml:space="preserve">
+    <value>Mappa propria</value>
+  </data>
+  <data name="PhoneNumber_Lbl" xml:space="preserve">
+    <value>Numero di telefono</value>
+  </data>
+  <data name="PhotoQualityLarge_Lbl" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="PhotoQualityNormal_Lbl" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="PhotoQualitySmall_Lbl" xml:space="preserve">
+    <value>Bassa</value>
+  </data>
+  <data name="PhotoQuality_Lbl" xml:space="preserve">
+    <value>Qualità delle foto</value>
+  </data>
+  <data name="Play_Btn" xml:space="preserve">
+    <value>Leggere</value>
+  </data>
+  <data name="UserProfil_Ttl" xml:space="preserve">
+    <value>Profilo utente</value>
+  </data>
+  <data name="RegistrationPage_Ttl" xml:space="preserve">
+    <value>Registrazione</value>
+  </data>
+  <data name="Required_Lbl" xml:space="preserve">
+    <value>Obbligatorio</value>
+  </data>
+  <data name="ResetData_Btn" xml:space="preserve">
+    <value>Cancellare tutti i dati</value>
+  </data>
+  <data name="ResetData_Msg" xml:space="preserve">
+    <value>Cancellare veramente tutti i dati?</value>
+  </data>
+  <data name="SaveInProgress_Hud" xml:space="preserve">
+    <value>Backup in corso…</value>
+  </data>
+  <data name="SaveVoiceRecord_Btn" xml:space="preserve">
+    <value>Interrompere e salvare la voce…</value>
+  </data>
+  <data name="SendMessage_Btn" xml:space="preserve">
+    <value>Invia messaggio</value>
+  </data>
+  <data name="SendRegisterRequest_Btn" xml:space="preserve">
+    <value>Richiesta di registrazione</value>
+  </data>
+  <data name="Send_Btn" xml:space="preserve">
+    <value>Invia</value>
+  </data>
+  <data name="SmartPhoneRegisteredMessage" xml:space="preserve">
+    <value>Il dispositivo è stato autenticato con successo.</value>
+  </data>
+  <data name="Stop_Btn" xml:space="preserve">
+    <value>Fermate</value>
+  </data>
+  <data name="SwitchHybride_Btn" xml:space="preserve">
+    <value>Ibrido</value>
+  </data>
+  <data name="SwitchPlan_Btn" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="SwitchSatellite_Btn" xml:space="preserve">
+    <value>Satellite</value>
+  </data>
+  <data name="TabToDismiss_Lbl" xml:space="preserve">
+    <value>Toccare per chiudere / uscita...</value>
+  </data>
+  <data name="UnknownDt_Lbl" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="UpdateFormRequired_Msg" xml:space="preserve">
+    <value>Un aggiornamento delle forme è disponibile sul server. Si desidera aggiornare ora?</value>
+  </data>
+  <data name="UpdateFormRequired_Ttl" xml:space="preserve">
+    <value>Aggiornamento necessario</value>
+  </data>
+  <data name="UploadInProgress_Hud" xml:space="preserve">
+    <value>Caricamento in corso...</value>
+  </data>
+  <data name="UpToDate_Hud" xml:space="preserve">
+    <value>Il tuo profilo è aggiornata.</value>
+  </data>
+  <data name="UserNotRegistered" xml:space="preserve">
+    <value>Utente non autenticato</value>
+  </data>
+  <data name="UserRegistered" xml:space="preserve">
+    <value>Registrati</value>
+  </data>
+  <data name="ValidateLocation_Btn" xml:space="preserve">
+    <value>Convalidare la posizione</value>
+  </data>
+  <data name="VoiceRecorder_Ttl" xml:space="preserve">
+    <value>Registratazione vocale</value>
+  </data>
+  <data name="Working_Hud" xml:space="preserve">
+    <value>Si prega di attendere…</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+</root>
