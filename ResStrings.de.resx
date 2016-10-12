@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -253,8 +253,8 @@
     <value>Meter</value>
   </data>
   <data name="NameCompanyRequired_Msg" xml:space="preserve">
-    <value>Bitte Ihren Namen/Firma eingeben </value>
-  </data>
+    <value>Bitte Ihren/Ihre Namen/Firma eingeben</value>
+    </data>
   <data name="NameCompany_Lbl" xml:space="preserve">
     <value>Name / Unternehmen</value>
   </data>
@@ -271,8 +271,8 @@
     <value>Referenzpunkt suchen</value>
   </data>
   <data name="NoFormFound_Msg" xml:space="preserve">
-    <value>Bitte Ihr Profil aktualisieren. Keine Vorlage gefunden. </value>
-  </data>
+    <value>Bitte Ihr Profil aktualisieren. Keine Vorlage gefunden.</value>
+    </data>
   <data name="None_Lbl" xml:space="preserve">
     <value>kein</value>
   </data>
@@ -406,8 +406,8 @@
     <value>Registriert</value>
   </data>
   <data name="ValidateLocation_Btn" xml:space="preserve">
-    <value>Validate location</value>
-  </data>
+    <value>Lokalisierung validiert</value>
+    </data>
   <data name="VoiceRecorder_Ttl" xml:space="preserve">
     <value>Sprachaufnahme</value>
   </data>
@@ -417,4 +417,130 @@
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>
   </data>
+<data name="UpdateProfile_Btn" xml:space="preserve">
+    <value>Profil prüfen...</value>
+    </data>
+    <data name="UserFormsPage_Lbl" xml:space="preserve">
+    <value>Verfügbare Formulare wurden Ihrem Profil angehängt:</value>
+    </data>
+    <data name="Preferences_Ttl" xml:space="preserve">
+    <value>Ihre Auswahl</value>
+    </data>
+    <data name="EmailWrongFormat_Msg" xml:space="preserve">
+    <value>Falsches Email-Format. Bitte geben Sie eine gültige Email-Adresse ein.</value>
+    </data>
+    <data name="MessageSent_Msg" xml:space="preserve">
+    <value>Ihre Nachricht wurde erfolgreich an Unit Solutions gesendet.</value>
+    </data>
+    <data name="MessageSent_Ttl" xml:space="preserve">
+    <value>Nachricht gesendet</value>
+    </data>
+    <data name="ObjectsList_Ttl" xml:space="preserve">
+    <value>Objektliste</value>
+    </data>
+    <data name="ObservationsList_Ttl" xml:space="preserve">
+    <value>Liste der Beobachtungen</value>
+    </data>
+    <data name="UserImportFormsPage_Ttl" xml:space="preserve">
+    <value>Formulare</value>
+    </data>
+    <data name="UserObjectsImportPage_Ttl" xml:space="preserve">
+    <value>Objektimport</value>
+    </data>
+    <data name="ContactPage_Ttl" xml:space="preserve">
+    <value>Kontakt</value>
+    </data>
+    <data name="UpdateInformations_Btn" xml:space="preserve">
+    <value>Informationen aktualisieren</value>
+    </data>
+    <data name="UserInfosUpdated_Ttl" xml:space="preserve">
+    <value>Informationen aktualisiert</value>
+    </data>
+    <data name="UserInfosUpdated_Msg" xml:space="preserve">
+    <value>Ihre Informationen wurden erfolgreich aktualisiert.</value>
+    </data>
+    <data name="AppUpdateRequired_Msg" xml:space="preserve">
+    <value>Eine neue Version von Observo ist im Store verfügbar. Bitte aktualisierem Sie Ihre Version.</value>
+    </data>
+    <data name="AppUpdateRequired_Ttl" xml:space="preserve">
+    <value>Aktualisierung erforderlich</value>
+    </data>
+    <data name="Later_Btn" xml:space="preserve">
+    <value>Später</value>
+    </data>
+    <data name="UpdateNow_Btn" xml:space="preserve">
+    <value>Jetzt aktualisieren</value>
+    </data>
+    <data name="ObjectsCount_Lbl" xml:space="preserve">
+    <value>{0} Objekte</value>
+    </data>
+    <data name="Download_Btn" xml:space="preserve">
+    <value>Herunterladen</value>
+    </data>
+    <data name="Retry_Btn" xml:space="preserve">
+    <value>Wiederholen</value>
+    </data>
+    <data name="Import_Btn" xml:space="preserve">
+    <value>Import</value>
+  </data>
+    <data name="State_Lbl" xml:space="preserve">
+    <value>Status: {0}</value>
+    </data>
+    <data name="ImportPackageStatus_ReadyForDownload" xml:space="preserve">
+        <value>Bereit zum Herunterladen (Download)</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadingData" xml:space="preserve">
+        <value>Datenpaket wird heruntergeladen</value>
+    </data>
+    <data name="ImportPackageStatus_ImportingData" xml:space="preserve">
+        <value>Datenpaket wird importiert</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadingMedia" xml:space="preserve">
+        <value>Paket mit Mediendateien wird heruntergeladen</value>
+    </data>
+    <data name="ImportPackageStatus_UnzippingMedia" xml:space="preserve">
+        <value>Paket mit Mediendateien wird entpackt.</value>
+    </data>
+    <data name="ImportPackageStatus_UpToDate" xml:space="preserve">
+        <value>Paket ist auf dem neuesten Stand.</value>
+    </data>
+    <data name="ImportPackageStatus_NewVersionAvailable" xml:space="preserve">
+        <value>Eine neue Version ist auf dem Server verfügbar</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadDataFailed" xml:space="preserve">
+        <value>Download fehlgeschlagen</value>
+    </data>
+    <data name="ImportPackageStatus_ImportDataFailed" xml:space="preserve">
+        <value>PaketImport fehlgeschlagen</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadMediaFailed" xml:space="preserve">
+        <value>Download der Mediendateien fehlgeschlagen</value>
+    </data>
+    <data name="ImportPackageStatus_BuildingMiniatures" xml:space="preserve">
+        <value>Miniaturen werden erstellt</value>
+    </data>
+    <data name="ImportPackageStatus_BuildingMiniaturesFailed" xml:space="preserve">
+        <value>Erstellen der Miniaturen fehlgeschlagen</value>
+    </data>
+    <data name="ImportPackageStatus_UnzipMediaFailed" xml:space="preserve">
+        <value>Entpacken der Mediendateien fehlgeschlagen</value>
+    </data>
+    <data name="ImportPackageStuck_Lbl" xml:space="preserve">
+        <value>Der Paketimport wurde gestoppt. Bitte neustarten.</value>
+    </data>
+    <data name="Search_Lbl" xml:space="preserve">
+    <value>Suche</value>
+    </data>
+  <data name="TakePhoto_DialBtn" xml:space="preserve">
+    <value>Foto aufnehmen</value>
+    </data>
+  <data name="PickFromGallery_DialBtn" xml:space="preserve">
+    <value>Aus der Bibliothek (Gallerie) auswählen</value>
+    </data>
+    <data name="ChooseAction_DialTtl" xml:space="preserve">
+    <value>Bitte wählen Sie eine Aktion...</value>
+    </data>
+    <data name="DeletePackageData_Msg" xml:space="preserve">
+    <value>Wollen Sie wirklich das Datenpaket löschen?</value>
+    </data>
 </root>
