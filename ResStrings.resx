@@ -153,7 +153,7 @@
     <data name="ChooseNewObservationType_Ttl" xml:space="preserve">
     <value>New observation...</value>
   </data>
-    <data name="ComingSoon_Lbl" xml:space="preserve">
+    <data name="ComingSoon_Ttl" xml:space="preserve">
     <value>Coming soon...</value>
   </data>
     <data name="CommunicationProblem_Ttl" xml:space="preserve">
@@ -165,6 +165,9 @@
     <data name="Configuration_Ttl" xml:space="preserve">
     <value>Configuraiton</value>
   </data>
+    <data name="SendObservation_Msg" xml:space="preserve">
+    <value>Do you really want to send the observation?</value>
+    </data>
     <data name="ConfirmDeleteBp_Msg" xml:space="preserve">
     <value>Do you really want to delete the current reference point?</value>
   </data>
@@ -176,6 +179,9 @@
   </data>
     <data name="ConfirmDelete_Ttl" xml:space="preserve">
     <value>Delete</value>
+  </data>
+    <data name="ConfirmSendObservation_Ttl" xml:space="preserve">
+    <value>Send observation</value>
   </data>
     <data name="Coordinates_Lbl" xml:space="preserve">
     <value>Coordinates</value>
@@ -276,8 +282,11 @@
     <data name="NameCompany_Lbl" xml:space="preserve">
     <value>Name / Company</value>
   </data>
+    <data name="CallUnitSolutions_Btn" xml:space="preserve">
+    <value>Call...</value>
+  </data>
     <data name="NavigateTo_Btn" xml:space="preserve">
-    <value>Navigate to</value>
+    <value>Navigate to...</value>
   </data>
     <data name="No" xml:space="preserve">
     <value>No</value>
@@ -487,54 +496,54 @@
     <value>State: {0}</value>
   </data>
     <data name="ImportPackageStatus_ReadyForDownload" xml:space="preserve">
-        <value>Ready for download</value>
-    </data>
+    <value>Ready for download</value>
+  </data>
     <data name="ImportPackageStatus_DownloadingData" xml:space="preserve">
-        <value>Downloading package data</value>
-    </data>
+    <value>Downloading package data</value>
+  </data>
     <data name="ImportPackageStatus_ImportingData" xml:space="preserve">
-        <value>Importing package data</value>
-    </data>
+    <value>Importing package data</value>
+  </data>
     <data name="ImportPackageStatus_DownloadingMedia" xml:space="preserve">
-        <value>Downloading package media files</value>
-    </data>
+    <value>Downloading package media files</value>
+  </data>
     <data name="ImportPackageStatus_UnzippingMedia" xml:space="preserve">
-        <value>Unzipping package media files</value>
-    </data>
+    <value>Unzipping package media files</value>
+  </data>
     <data name="ImportPackageStatus_UpToDate" xml:space="preserve">
-        <value>Package is up to date</value>
-    </data>
+    <value>Package is up to date</value>
+  </data>
     <data name="ImportPackageStatus_NewVersionAvailable" xml:space="preserve">
-        <value>A new version is available on server</value>
-    </data>
+    <value>A new version is available on server</value>
+  </data>
     <data name="ImportPackageStatus_DownloadDataFailed" xml:space="preserve">
-        <value>Downloading data failed</value>
-    </data>
+    <value>Downloading data failed</value>
+  </data>
     <data name="ImportPackageStatus_ImportDataFailed" xml:space="preserve">
-        <value>Import package failed</value>
-    </data>
+    <value>Import package failed</value>
+  </data>
     <data name="ImportPackageStatus_DownloadMediaFailed" xml:space="preserve">
-        <value>Downloading media failed</value>
-    </data>
+    <value>Downloading media failed</value>
+  </data>
     <data name="ImportPackageStatus_BuildingMiniatures" xml:space="preserve">
-        <value>Building miniatures</value>
-    </data>
+    <value>Building miniatures</value>
+  </data>
     <data name="ImportPackageStatus_BuildingMiniaturesFailed" xml:space="preserve">
-        <value>Building miniatures failed</value>
-    </data>
+    <value>Building miniatures failed</value>
+  </data>
     <data name="ImportPackageStatus_UnzipMediaFailed" xml:space="preserve">
-        <value>Unzipping media failed</value>
-    </data>
+    <value>Unzipping media failed</value>
+  </data>
     <data name="ImportPackageStuck_Lbl" xml:space="preserve">
-        <value>The package import has been stuck. Please restart it.</value>
-    </data>
+    <value>The package import has been stuck. Please restart it.</value>
+  </data>
     <data name="Search_Lbl" xml:space="preserve">
     <value>Search</value>
   </data>
-  <data name="TakePhoto_DialBtn" xml:space="preserve">
+    <data name="TakePhoto_DialBtn" xml:space="preserve">
     <value>Take photo</value>
   </data>
-  <data name="PickFromGallery_DialBtn" xml:space="preserve">
+    <data name="PickFromGallery_DialBtn" xml:space="preserve">
     <value>Choose from library</value>
   </data>
     <data name="ChooseAction_DialTtl" xml:space="preserve">
@@ -542,5 +551,23 @@
   </data>
     <data name="DeletePackageData_Msg" xml:space="preserve">
     <value>Do you really want to delete the package data?</value>
+  </data>
+    <data name="ContactUs_Btn" xml:space="preserve">
+    <value>Contact us...</value>
+  </data>
+    <data name="ImportYourOwnObjects_Lbl" xml:space="preserve">
+    <value>Import you own objects here. Contact us for more informations.</value>
+  </data>
+    <data name="NextVersionMain_Lbl" xml:space="preserve">
+    <value>New features are coming soon:
+- Offline maps
+- App on Windows 10 (phone, surface and desktop)
+- Sub-forms
+- Comment on photos
+- Workflow driven objects
+- ...
+
+Please contact us for more informations or any suggestion...
+    </value>
   </data>
 </root>
