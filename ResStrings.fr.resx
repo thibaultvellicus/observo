@@ -193,8 +193,8 @@
     <value>Veuillez saisir votre adresse E-Mail</value>
   </data>
   <data name="EnterFreeText_Lbl" xml:space="preserve">
-    <value>Veuiilez cliquer pour entrer un texte...</value>
-  </data>
+    <value>Veuillez cliquer pour entrer un texte...</value>
+    </data>
   <data name="Error" xml:space="preserve">
     <value>Erreur</value>
   </data>
@@ -423,4 +423,124 @@
     <data name="UpdateProfile_Btn" xml:space="preserve">
     <value>Vérifier le profil...</value>
     </data>
-    </root>
+    <data name="UserFormsPage_Lbl" xml:space="preserve">
+    <value>Formulaires attachés à votre profil :</value>
+    </data>
+    <data name="EmailWrongFormat_Msg" xml:space="preserve">
+    <value>Format d'e-mail incorrect. Veuillez saisir une adresse valide.</value>
+    </data>
+    <data name="MessageSent_Msg" xml:space="preserve">
+    <value>Votre message a été transmis avec succès à Unit Solutions.</value>
+    </data>
+    <data name="MessageSent_Ttl" xml:space="preserve">
+    <value>Message envoyé</value>
+    </data>
+    <data name="ObjectsList_Ttl" xml:space="preserve">
+    <value>Liste d'objets</value>
+    </data>
+    <data name="ObservationsList_Ttl" xml:space="preserve">
+    <value>Liste des observations</value>
+    </data>
+    <data name="UserImportFormsPage_Ttl" xml:space="preserve">
+    <value>Formulaires</value>
+    </data>
+    <data name="UserObjectsImportPage_Ttl" xml:space="preserve">
+    <value>Import d'objets</value>
+    </data>
+    <data name="ContactPage_Ttl" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+    <data name="UpdateInformations_Btn" xml:space="preserve">
+    <value>Mettre à jour les informations</value>
+    </data>
+    <data name="UserInfosUpdated_Ttl" xml:space="preserve">
+    <value>Informations mises à jour</value>
+    </data>
+    <data name="UserInfosUpdated_Msg" xml:space="preserve">
+    <value>Vos informations ont été mises à jour avec succès</value>
+    </data>
+    <data name="AppUpdateRequired_Msg" xml:space="preserve">
+    <value>Une nouvelle version d'Observo est disponible dans le store. Merci de mettre à jour votre version.</value>
+    </data>
+    <data name="AppUpdateRequired_Ttl" xml:space="preserve">
+    <value>Mise à jour nécessaire</value>
+    </data>
+    <data name="Later_Btn" xml:space="preserve">
+    <value>Plus tard</value>
+    </data>
+    <data name="UpdateNow_Btn" xml:space="preserve">
+    <value>Mettre à jour maintenant</value>
+    </data>
+    <data name="ObjectsCount_Lbl" xml:space="preserve">
+    <value>{0} objets</value>
+    </data>
+    <data name="Download_Btn" xml:space="preserve">
+    <value>Télécharger</value>
+    </data>
+    <data name="Retry_Btn" xml:space="preserve">
+    <value>Réessayer</value>
+    </data>
+    <data name="Import_Btn" xml:space="preserve">
+    <value>Import</value>
+  </data>
+    <data name="State_Lbl" xml:space="preserve">
+    <value>Statut: {0}</value>
+    </data>
+    <data name="ImportPackageStatus_ReadyForDownload" xml:space="preserve">
+        <value>Prêt à télécharger</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadingData" xml:space="preserve">
+        <value>Téléchargement des données du package</value>
+    </data>
+    <data name="ImportPackageStatus_ImportingData" xml:space="preserve">
+        <value>Import des données du package</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadingMedia" xml:space="preserve">
+        <value>Téléchargement des fichiers médias du package</value>
+    </data>
+    <data name="ImportPackageStatus_UnzippingMedia" xml:space="preserve">
+        <value>Dézippage des fichiers médias</value>
+    </data>
+    <data name="ImportPackageStatus_UpToDate" xml:space="preserve">
+        <value>Le package est à jour</value>
+    </data>
+    <data name="ImportPackageStatus_NewVersionAvailable" xml:space="preserve">
+        <value>Une nouvelle version est disponible sur le serveur</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadDataFailed" xml:space="preserve">
+        <value>Téléchargement des données échoué</value>
+    </data>
+    <data name="ImportPackageStatus_ImportDataFailed" xml:space="preserve">
+        <value>Import du package échoué</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadMediaFailed" xml:space="preserve">
+        <value>Téléchargement des médias échoué</value>
+    </data>
+    <data name="ImportPackageStatus_BuildingMiniatures" xml:space="preserve">
+        <value>Construction des miniatures</value>
+    </data>
+    <data name="ImportPackageStatus_BuildingMiniaturesFailed" xml:space="preserve">
+        <value>Construction des miniatures échouée</value>
+    </data>
+    <data name="ImportPackageStatus_UnzipMediaFailed" xml:space="preserve">
+        <value>Dézippage des médias échoué</value>
+    </data>
+    <data name="ImportPackageStuck_Lbl" xml:space="preserve">
+        <value>L'import du package a été bloqué. Veuillez le redémarrer.</value>
+    </data>
+    <data name="Search_Lbl" xml:space="preserve">
+    <value>Recherche</value>
+    </data>
+  <data name="TakePhoto_DialBtn" xml:space="preserve">
+    <value>Prendre une photo</value>
+    </data>
+  <data name="PickFromGallery_DialBtn" xml:space="preserve">
+    <value>Choisir dans la librairie</value>
+    </data>
+    <data name="ChooseAction_DialTtl" xml:space="preserve">
+    <value>Veuillez choisir une action...</value>
+    </data>
+    <data name="DeletePackageData_Msg" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer les données du package ?</value>
+    </data>
+</root>
