@@ -157,8 +157,8 @@
     <value>Konfiguration</value>
   </data>
   <data name="ConfirmDeleteBp_Msg" xml:space="preserve">
-    <value>Möchten Sie wirklich den Bezugspunkt löschen? </value>
-  </data>
+    <value>Möchten Sie wirklich den Bezugspunkt löschen?</value>
+    </data>
   <data name="ConfirmDeletePhoto_Msg" xml:space="preserve">
     <value>Möchten Sie wirklich das Foto löschen ?</value>
   </data>
@@ -541,6 +541,6 @@
     <value>Bitte wählen Sie eine Aktion...</value>
     </data>
     <data name="DeletePackageData_Msg" xml:space="preserve">
-    <value>Wollen Sie wirklich das Datenpaket löschen?</value>
+    <value>Möchten Sie wirklich das Datenpaket löschen?</value>
     </data>
 </root>

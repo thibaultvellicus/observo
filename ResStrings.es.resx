@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -151,14 +151,14 @@
     <value>La observación fue correctamente envíada.</value>
   </data>
   <data name="SmartPhoneRegisteredMessage" xml:space="preserve">
-    <value>Su registro fue hecho correctamente</value>
-  </data>
+    <value>Su registro fue hecho correctamente.</value>
+    </data>
   <data name="UserNotRegistered" xml:space="preserve">
     <value>Usuario no registrado</value>
   </data>
   <data name="AddObservation_BtnBar" xml:space="preserve">
-    <value>Nueva observ.</value>
-  </data>
+    <value>Nueva observación</value>
+    </data>
   <data name="Observations_Ttl" xml:space="preserve">
     <value>Observaciones</value>
   </data>
@@ -172,8 +172,8 @@
     <value>Configuración</value>
   </data>
   <data name="DeleteForm_Ttl" xml:space="preserve">
-    <value>Borrar el formulario?</value>
-  </data>
+    <value>Borrar el formulario</value>
+    </data>
   <data name="DeleteObservation_Msg" xml:space="preserve">
     <value>Desea realmente borrar la observación?</value>
   </data>
@@ -282,6 +282,264 @@ Por favor inicie la actualización nuevamente.</value>
     <value>Coming soon...</value>
   </data>
   <data name="Objects_Ttl" xml:space="preserve">
-    <value>Objects</value>
+    <value>Objetos</value>
+    </data>
+<data name="About_Ttl" xml:space="preserve">
+    <value>Sobre</value>
+    </data>
+    <data name="Back_Btn" xml:space="preserve">
+    <value>Retornar</value>
+    </data>
+    <data name="CheckUpdates_Btn" xml:space="preserve">
+    <value>Revise actualizaciones...</value>
+    </data>
+    <data name="UpdateProfile_Btn" xml:space="preserve">
+    <value>Revise perfil...</value>
+    </data>
+    <data name="ChooseNewObservationType_Lbl" xml:space="preserve">
+    <value>Elija el tipo de formulario que desea crear:</value>
+    </data>
+    <data name="UserFormsPage_Lbl" xml:space="preserve">
+    <value>Formulario disponible ha sido agregado a su perfil:</value>
+    </data>
+    <data name="ChooseNewObservationType_Ttl" xml:space="preserve">
+    <value>Nueva observación...</value>
+    </data>
+    <data name="CommunicationProblem_Ttl" xml:space="preserve">
+    <value>Problema de comunicación</value>
+    </data>
+    <data name="Preferences_Ttl" xml:space="preserve">
+    <value>Preferencias</value>
+    </data>
+    <data name="ConfirmDeleteBp_Msg" xml:space="preserve">
+    <value>Desea realmente borrar el punto de referencia actual?</value>
+    </data>
+    <data name="ConfirmDeleteVoice_Msg" xml:space="preserve">
+    <value>Desea realmente borrar el mensaje de voz?</value>
+    </data>
+    <data name="East_Lbl" xml:space="preserve">
+    <value>Este</value>
+    </data>
+    <data name="EmailWrongFormat_Msg" xml:space="preserve">
+    <value>Formulario de correo erróneo. Por favor ingresar dirección de correo válida.</value>
+    </data>
+    <data name="RegisterFormIncomplete_Ttl" xml:space="preserve">
+    <value>Formulario de registro incompleto</value>
+    </data>
+    <data name="HostNotReachable_Msg" xml:space="preserve">
+    <value>No se puede comunicar con el servidor. Por favor intente un par de minutos más tarde.</value>
+    </data>
+    <data name="MessageSent_Msg" xml:space="preserve">
+    <value>Su mensaje fur enviado  exitosamente a Unit Solutions.</value>
+    </data>
+    <data name="MessageSent_Ttl" xml:space="preserve">
+    <value>Mensaje enviado</value>
+    </data>
+    <data name="MandantName_Ttl" xml:space="preserve">
+    <value>Mandante {0}</value>
+    </data>
+    <data name="Mandants_Lbl" xml:space="preserve">
+    <value>Mandantes</value>
+    </data>
+    <data name="MapMaterials_Ttl" xml:space="preserve">
+    <value>Materialesde mapas</value>
+    </data>
+    <data name="NameCompanyRequired_Msg" xml:space="preserve">
+    <value>Por favor ingrese su nombre / Empresa</value>
+    </data>
+    <data name="NameCompany_Lbl" xml:space="preserve">
+    <value>Nombre / Empresa</value>
+    </data>
+    <data name="NavigateTo_Btn" xml:space="preserve">
+    <value>Navegue a</value>
+    </data>
+    <data name="NoBpFound_Msg" xml:space="preserve">
+    <value>Punto de referencia no encontrado para esta localización</value>
+    </data>
+    <data name="NoBpFound_Ttl" xml:space="preserve">
+    <value>Búsqueda de punto de referencia</value>
+    </data>
+    <data name="NoFormFound_Msg" xml:space="preserve">
+    <value>Por favor actualize su perfil. Formulario no fue encontrado.</value>
+    </data>
+    <data name="North_Lbl" xml:space="preserve">
+    <value>Norte</value>
+    </data>
+    <data name="ObjectsList_Ttl" xml:space="preserve">
+    <value>Lista de objetos</value>
+    </data>
+    <data name="ObservationSentFailed_Msg" xml:space="preserve">
+    <value>La observación no pudo ser enviada.</value>
+    </data>
+    <data name="ObservationsList_Ttl" xml:space="preserve">
+    <value>Lista de observaciones</value>
+    </data>
+    <data name="Offline_Msg" xml:space="preserve">
+    <value>Parece que su dispositivo está offline. Por favor valide su conexión a internet y vuelva a hacer la prueba.</value>
+    </data>
+    <data name="OperationSuccessfull_Toast" xml:space="preserve">
+    <value>Operación completamente exitosa</value>
+    </data>
+    <data name="Optional_Lbl" xml:space="preserve">
+    <value>Opcional</value>
+    </data>
+    <data name="OwnMaps_Ttl" xml:space="preserve">
+    <value>Mapas propios</value>
+    </data>
+    <data name="PhoneNumber_Lbl" xml:space="preserve">
+    <value>Número de teléfono</value>
+    </data>
+    <data name="UserImportFormsPage_Ttl" xml:space="preserve">
+    <value>Formularios</value>
+    </data>
+    <data name="UserObjectsImportPage_Ttl" xml:space="preserve">
+    <value>Importación de objetos</value>
+    </data>
+    <data name="UserProfil_Ttl" xml:space="preserve">
+    <value>Perfil de usuario</value>
+    </data>
+    <data name="ContactPage_Ttl" xml:space="preserve">
+    <value>Contacto</value>
+    </data>
+    <data name="RegistrationPage_Ttl" xml:space="preserve">
+    <value>Registro</value>
+    </data>
+    <data name="Required_Lbl" xml:space="preserve">
+    <value>Necesario</value>
+    </data>
+    <data name="ResetData_Btn" xml:space="preserve">
+    <value>Restablecer todos los datos</value>
+    </data>
+    <data name="ResetData_Msg" xml:space="preserve">
+    <value>Desea realmente restablecer todos los datos?</value>
+    </data>
+    <data name="SaveInProgress_Hud" xml:space="preserve">
+    <value>Guardar en curso ...</value>
+    </data>
+    <data name="SaveVoiceRecord_Btn" xml:space="preserve">
+    <value>Detener y guardar registro ...</value>
+    </data>
+    <data name="SendMessage_Btn" xml:space="preserve">
+    <value>Enviar mensaje</value>
+    </data>
+    <data name="UpdateInformations_Btn" xml:space="preserve">
+    <value>Actualizar informaciones</value>
+    </data>
+    <data name="UserInfosUpdated_Ttl" xml:space="preserve">
+    <value>Informaciones actualizadas</value>
+    </data>
+    <data name="UserInfosUpdated_Msg" xml:space="preserve">
+    <value>Sus informaciones han sido actualizadas exitosamente</value>
+    </data>
+    <data name="SwitchHybride_Btn" xml:space="preserve">
+    <value>Híbrido</value>
+    </data>
+    <data name="SwitchPlan_Btn" xml:space="preserve">
+    <value>Plan</value>
   </data>
+    <data name="UnknownDt_Lbl" xml:space="preserve">
+    <value>Desconocido</value>
+    </data>
+    <data name="UpdateFormRequired_Msg" xml:space="preserve">
+    <value>Nuevos formularios a disposición en el servidor. Desea actualizar ahora?</value>
+    </data>
+    <data name="UpdateFormRequired_Ttl" xml:space="preserve">
+    <value>Actualización necesaria</value>
+    </data>
+    <data name="UploadInProgress_Hud" xml:space="preserve">
+    <value>Actualización en marcha...</value>
+    </data>
+    <data name="UpToDate_Hud" xml:space="preserve">
+    <value>Su perfil está actualizado.</value>
+    </data>
+    <data name="ValidateLocation_Btn" xml:space="preserve">
+    <value>Localización validada</value>
+    </data>
+    <data name="Working_Hud" xml:space="preserve">
+    <value>Por favor esperar...</value>
+    </data>
+    <data name="AppUpdateRequired_Msg" xml:space="preserve">
+    <value>Una nueva versión de Observo está a disposición en el Store. Por favor actualize su versión.</value>
+    </data>
+    <data name="AppUpdateRequired_Ttl" xml:space="preserve">
+    <value>Actualización necesaria</value>
+    </data>
+    <data name="Later_Btn" xml:space="preserve">
+    <value>Más tarde</value>
+    </data>
+    <data name="UpdateNow_Btn" xml:space="preserve">
+    <value>Actualizar ahora</value>
+    </data>
+    <data name="ObjectsCount_Lbl" xml:space="preserve">
+    <value>{0} objetos</value>
+    </data>
+    <data name="Download_Btn" xml:space="preserve">
+    <value>Descargar</value>
+    </data>
+    <data name="Retry_Btn" xml:space="preserve">
+    <value>Procesar de nuevo</value>
+    </data>
+    <data name="Import_Btn" xml:space="preserve">
+    <value>Importación</value>
+    </data>
+    <data name="State_Lbl" xml:space="preserve">
+    <value>Estado: {0}</value>
+    </data>
+    <data name="ImportPackageStatus_ReadyForDownload" xml:space="preserve">
+        <value>Listo para descargar</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadingData" xml:space="preserve">
+        <value>Descargando paquete de datos</value>
+    </data>
+    <data name="ImportPackageStatus_ImportingData" xml:space="preserve">
+        <value>Importando paquete de datos</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadingMedia" xml:space="preserve">
+        <value>Descargando paquete de archivos multimedia</value>
+    </data>
+    <data name="ImportPackageStatus_UnzippingMedia" xml:space="preserve">
+        <value>Descomprimiendo paquete de archivos multimedia</value>
+    </data>
+    <data name="ImportPackageStatus_UpToDate" xml:space="preserve">
+        <value>Paquete está actualizado</value>
+    </data>
+    <data name="ImportPackageStatus_NewVersionAvailable" xml:space="preserve">
+        <value>Una nueva versión está disponible en el servidor</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadDataFailed" xml:space="preserve">
+        <value>descarga de datos falló</value>
+    </data>
+    <data name="ImportPackageStatus_ImportDataFailed" xml:space="preserve">
+        <value>Importación de paquete falló</value>
+    </data>
+    <data name="ImportPackageStatus_DownloadMediaFailed" xml:space="preserve">
+        <value>Descarga de archivos multimedia falló</value>
+    </data>
+    <data name="ImportPackageStatus_BuildingMiniatures" xml:space="preserve">
+        <value>Construyendo miniaturas</value>
+    </data>
+    <data name="ImportPackageStatus_BuildingMiniaturesFailed" xml:space="preserve">
+        <value>La elaboración de miniaturas falló</value>
+    </data>
+    <data name="ImportPackageStatus_UnzipMediaFailed" xml:space="preserve">
+        <value>Descomprimir archivos multimediales falló</value>
+    </data>
+    <data name="ImportPackageStuck_Lbl" xml:space="preserve">
+        <value>La importación de paquete se obstruyó. Por favor, vuelva a iniciarlo.</value>
+    </data>
+    <data name="Search_Lbl" xml:space="preserve">
+    <value>Búsqueda</value>
+    </data>
+  <data name="TakePhoto_DialBtn" xml:space="preserve">
+    <value>Tomar foto</value>
+    </data>
+  <data name="PickFromGallery_DialBtn" xml:space="preserve">
+    <value>Elija de la biblioteca</value>
+    </data>
+    <data name="ChooseAction_DialTtl" xml:space="preserve">
+    <value>Por favor elija una acción...</value>
+    </data>
+    <data name="DeletePackageData_Msg" xml:space="preserve">
+    <value>Desea realmente borrar el paquete de datos?</value>
+    </data>
 </root>

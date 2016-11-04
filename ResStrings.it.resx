@@ -139,8 +139,8 @@
     <value>Annulla</value>
   </data>
   <data name="CheckUpdates_Btn" xml:space="preserve">
-    <value>Verifica aggiornamenti</value>
-  </data>
+    <value>Verifica aggiornamenti...</value>
+    </data>
   <data name="ChooseNewObservationType_Lbl" xml:space="preserve">
     <value>Scegliere il tipo di modulo che si desidera creare:</value>
   </data>
@@ -160,8 +160,8 @@
     <value>Cancellare veramente il punto di riferimento?</value>
   </data>
   <data name="ConfirmDeletePhoto_Msg" xml:space="preserve">
-    <value>Cancellare veramente la foto</value>
-  </data>
+    <value>Cancellare veramente la foto?</value>
+    </data>
   <data name="ConfirmDeleteVoice_Msg" xml:space="preserve">
     <value>Cancellare veramente la registrazione vocale?</value>
   </data>
@@ -310,8 +310,8 @@
     <value>OK</value>
   </data>
   <data name="OperationSuccessfull_Toast" xml:space="preserve">
-    <value>Operazione completata con successo.</value>
-  </data>
+    <value>Operazione completata con successo</value>
+    </data>
   <data name="Optional_Lbl" xml:space="preserve">
     <value>Opzionale</value>
   </data>
